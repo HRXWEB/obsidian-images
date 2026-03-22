@@ -16,14 +16,24 @@
           font-size="13" fill="#1e1e1e">Excalidraw GitHub →</text>
   </a>
 
-  <!-- ===== Section 2: Internal Wikilink (obsidian:// protocol) ===== -->
+  <!-- ===== Section 2: Internal Wikilink (obsidian:// with content/ prefix) ===== -->
   <text x="450" y="80" text-anchor="middle" font-family="Virgil, sans-serif"
-        font-size="14" fill="#868e96">2. Internal Note Link</text>
-  <a href="obsidian://open?vault=quartz&amp;file=blog%2FObsidian-Quartz-Blog-Setup-and-Configuration-Guide">
-    <rect x="330" y="95" width="240" height="50" rx="8" ry="8"
+        font-size="14" fill="#868e96">2. Internal Link (obsidian:// + content/)</text>
+  <a href="obsidian://open?vault=quartz&amp;file=content%2Fblog%2FObsidian-Quartz-Blog-Setup-and-Configuration-Guide">
+    <rect x="310" y="95" width="280" height="50" rx="8" ry="8"
           fill="#b2f2bb" stroke="#2f9e44" stroke-width="2" />
     <text x="450" y="125" text-anchor="middle" font-family="Virgil, sans-serif"
-          font-size="13" fill="#1e1e1e">Quartz 配置指南 (内链)</text>
+          font-size="13" fill="#1e1e1e">blog/ 配置指南 (内链)</text>
+  </a>
+
+  <!-- ===== Section 2b: Hook-converted plain path (non-blog dir) ===== -->
+  <text x="450" y="160" text-anchor="middle" font-family="Virgil, sans-serif"
+        font-size="12" fill="#868e96">2b. Hook-converted path (non-blog dir)</text>
+  <a href="content/tool/some-tool-note.md">
+    <rect x="330" y="168" width="240" height="36" rx="6" ry="6"
+          fill="#d0bfff" stroke="#7048e8" stroke-width="2" />
+    <text x="450" y="192" text-anchor="middle" font-family="Virgil, sans-serif"
+          font-size="12" fill="#1e1e1e">tool/ 笔记 (hook 转换)</text>
   </a>
 
   <!-- ===== Section 3: Another external link ===== -->
